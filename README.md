@@ -1,40 +1,14 @@
-This is a Python-based project, where real-time object detection from the integrated webcam is performed. That is by execution of the code, a web url will be generated. The url has to be copied and pasted in the web browser and then the webcam will be activated and real-time object detection will start. The project utilizes Flask framework as web tool and OpenCV for the object detection purpose.
+online food order system :
+The system interacts to the users (customer,admin) by means of some front-end form.To enter the system a login form will appear where email and password for both Admins and for the customers will have to be entered to log into the system and then this will check the type of that user. According to type the system is loaded.
+After signup ,customers enter into their profile. They can check the vegetable and fruit menu after that they can order it.
+new users must have to register before login.
+Every stage data is stored in the databae.This is why the system is very easy to use and every user can accept the system by thinking its utility in present and by applying the idea of prototyping model the system can be developed with more features in future.
 
-App
+Brief Overview Of The Technology :
 
-The project is deployed on Heroku. Following is the link to the Heroku-api of the project https://live-object-detection.herokuapp.com/
+Front end : Html, Css ,Javascript
+Back end  : Php , Mysql
 
-Dependencies
-
-pip install requirements.txt
-Arguments
-
-*\directory>  python app.py -h/--help
-usage: app.py [-h] [-wt MODEL_WEIGHTS] [-cfg MODEL_CFG] [-cls DATASET_CLASSES] [-is_realtime] [-vid VID_PATH] [-fd FRAME_DIMENSION]
-              [-conf_threh THRESHOLD_CONFIDENCE] [-p PORT] [-hst HOST] [-is_dbg]
-
-Object detection with OpenCV
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -wt MODEL_WEIGHTS, --model_weights MODEL_WEIGHTS
-                        Path to the pre-trained weights of the network
-  -cfg MODEL_CFG, --model_cfg MODEL_CFG
-                        Path to the .config file of the network
-  -cls DATASET_CLASSES, --dataset_classes DATASET_CLASSES
-                        Path to the classes file of the dataset
-  -is_realtime, --is_realtime
-                        Is real time object detection is being performed
-  -vid VID_PATH, --vid_path VID_PATH
-                        Path to the video file
-  -fd FRAME_DIMENSION, --frame_dimension FRAME_DIMENSION
-                        The dimensions of the frames
-  -conf_threh THRESHOLD_CONFIDENCE, --threshold_confidence THRESHOLD_CONFIDENCE
-                        Threshold confidence for selecting an object
-  -p PORT, --port PORT  The port of the server
-  -hst HOST, --host HOST
-                        The host
-  -is_dbg, --is_debug   Is debugging be performed during the app run
-Run
-
-*\directory> python app.py
+USED APP : 
+          This project has been done using XAMPP server , HTML ,SUBLIME . Therefore this project can be further enhanced using more advanced PHP Technologies and 
+          and adding online payment feature .
